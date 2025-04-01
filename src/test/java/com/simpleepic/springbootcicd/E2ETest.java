@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-public class CarServiceE2ETest {
+public class E2ETest {
 
     @Test
     void sampleTest() {

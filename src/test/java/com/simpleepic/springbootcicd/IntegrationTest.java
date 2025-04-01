@@ -4,10 +4,11 @@ import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringbootCicdApplicationTests {
+public class IntegrationTest {
 
-	@Test
-	void contextLoads() {
-	}
-
+    @Test
+    void testExample() {
+        System.out.println("Integration test running...");
+    }
+}
 }
